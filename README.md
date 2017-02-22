@@ -3,6 +3,7 @@ This is the course project for Getting-and-Cleaning-Data.
 Please make sure that you already downloaded the required data files for this project before you using analysis script "run_analysis.R".
 The analysis script run_analysis.R does the following:
 1. Loads the activities and features information.
+
 2. Loads the activity and subject data for each dataset.
 3. Uses descriptive activity names to name the activities in step 2.
 4. Loads both the training and test datasets and merge them together.
