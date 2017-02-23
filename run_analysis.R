@@ -49,6 +49,7 @@ alldata.col <- data.frame(alldata[, grepl("mean|std" ,names(alldata))])
 
 #Create the tidy data set
 tidydata <- cbind(allsubject,cbind(activityall,alldata.col))
+tidydata <- transform(tidydata, subject = factor(subject))
 
 ##############################################################################################
 #                       Calculate the mean for the variables                                 # 
