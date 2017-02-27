@@ -1,5 +1,4 @@
 library(dplyr)
-setwd("F:\\Learn\\Coursera\\Getting and Cleaning Data")
 setwd("UCI HAR Dataset")
 
 ##############################################################################################
